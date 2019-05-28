@@ -31,7 +31,7 @@ async function unblock(timeOut = 500) {
             alert('No blocked account!');
         }
     } else {
-        alert('You are redirecting to settings/blocked. Run the script again.');
+        alert('You are redirecting to settings/blocked page. Run the script again.');
         document.location.href = 'https://twitter.com/settings/blocked';
     }
 }
