@@ -1,3 +1,3 @@
-# twitter-unblock-all
+# Twitter Unblock All
 
 Twitter Unblocker Tool
