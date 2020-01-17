@@ -5,7 +5,7 @@ async function click(btn) {
 }
 
 async function unblock(timeOut = 500) {
-    if (window.location.href === 'https://twitter.com/settings/blocked') {
+    if (window.location.href === 'https://twitter.com/settings/blocked/all') {
         let pScroll, scroll = window.scrollY;
         do {
             window.scrollTo(0, document.body.scrollHeight);
@@ -32,6 +32,6 @@ async function unblock(timeOut = 500) {
         }
     } else {
         alert('You are redirecting to settings/blocked page. Run the script again.');
-        document.location.href = 'https://twitter.com/settings/blocked';
+        document.location.href = 'https://twitter.com/settings/blocked/all';
     }
 }
